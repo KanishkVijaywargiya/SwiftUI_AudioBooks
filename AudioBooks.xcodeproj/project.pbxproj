@@ -11,6 +11,16 @@
 		FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267726B6ADB0007B4EC3 /* ContentView.swift */; };
 		FD66267A26B6ADB3007B4EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD66267926B6ADB3007B4EC3 /* Assets.xcassets */; };
 		FD66267D26B6ADB3007B4EC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD66267C26B6ADB3007B4EC3 /* Preview Assets.xcassets */; };
+		FD66268526B6AE7E007B4EC3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66268426B6AE7E007B4EC3 /* MainTabView.swift */; };
+		FD66268926B6AF0F007B4EC3 /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66268826B6AF0F007B4EC3 /* CategorySection.swift */; };
+		FD66268B26B6AFDF007B4EC3 /* TileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66268A26B6AFDF007B4EC3 /* TileCard.swift */; };
+		FD66268D26B6B0EF007B4EC3 /* FreeBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66268C26B6B0EF007B4EC3 /* FreeBooksView.swift */; };
+		FD66268F26B6B2C9007B4EC3 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66268E26B6B2C9007B4EC3 /* BooksView.swift */; };
+		FD66269126B6B49A007B4EC3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66269026B6B49A007B4EC3 /* DetailView.swift */; };
+		FD66269326B6B59F007B4EC3 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66269226B6B59F007B4EC3 /* AudioPlayerView.swift */; };
+		FD66269826B6B5F7007B4EC3 /* PlayBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66269726B6B5F7007B4EC3 /* PlayBook.swift */; };
+		FD66269A26B6B754007B4EC3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66269926B6B754007B4EC3 /* SettingsView.swift */; };
+		FD66269C26B6B78E007B4EC3 /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66269B26B6B78E007B4EC3 /* TrendingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		FD66267926B6ADB3007B4EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD66267C26B6ADB3007B4EC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD66267E26B6ADB3007B4EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD66268426B6AE7E007B4EC3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FD66268826B6AF0F007B4EC3 /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
+		FD66268A26B6AFDF007B4EC3 /* TileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCard.swift; sourceTree = "<group>"; };
+		FD66268C26B6B0EF007B4EC3 /* FreeBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeBooksView.swift; sourceTree = "<group>"; };
+		FD66268E26B6B2C9007B4EC3 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		FD66269026B6B49A007B4EC3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FD66269226B6B59F007B4EC3 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		FD66269726B6B5F7007B4EC3 /* PlayBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayBook.swift; sourceTree = "<group>"; };
+		FD66269926B6B754007B4EC3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FD66269B26B6B78E007B4EC3 /* TrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,9 @@
 			children = (
 				FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */,
 				FD66267726B6ADB0007B4EC3 /* ContentView.swift */,
+				FD66268426B6AE7E007B4EC3 /* MainTabView.swift */,
+				FD66269626B6B5F7007B4EC3 /* ViewModel */,
+				FD66268626B6AEFB007B4EC3 /* View */,
 				FD66267926B6ADB3007B4EC3 /* Assets.xcassets */,
 				FD66267E26B6ADB3007B4EC3 /* Info.plist */,
 				FD66267B26B6ADB3007B4EC3 /* Preview Content */,
@@ -67,6 +90,37 @@
 				FD66267C26B6ADB3007B4EC3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD66268626B6AEFB007B4EC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD66268726B6AF01007B4EC3 /* Item */,
+				FD66268826B6AF0F007B4EC3 /* CategorySection.swift */,
+				FD66268C26B6B0EF007B4EC3 /* FreeBooksView.swift */,
+				FD66269026B6B49A007B4EC3 /* DetailView.swift */,
+				FD66269226B6B59F007B4EC3 /* AudioPlayerView.swift */,
+				FD66269926B6B754007B4EC3 /* SettingsView.swift */,
+				FD66269B26B6B78E007B4EC3 /* TrendingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD66268726B6AF01007B4EC3 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				FD66268A26B6AFDF007B4EC3 /* TileCard.swift */,
+				FD66268E26B6B2C9007B4EC3 /* BooksView.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		FD66269626B6B5F7007B4EC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD66269726B6B5F7007B4EC3 /* PlayBook.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +193,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */,
+				FD66269126B6B49A007B4EC3 /* DetailView.swift in Sources */,
+				FD66268D26B6B0EF007B4EC3 /* FreeBooksView.swift in Sources */,
+				FD66269C26B6B78E007B4EC3 /* TrendingView.swift in Sources */,
 				FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */,
+				FD66268F26B6B2C9007B4EC3 /* BooksView.swift in Sources */,
+				FD66269326B6B59F007B4EC3 /* AudioPlayerView.swift in Sources */,
+				FD66268526B6AE7E007B4EC3 /* MainTabView.swift in Sources */,
+				FD66268926B6AF0F007B4EC3 /* CategorySection.swift in Sources */,
+				FD66269826B6B5F7007B4EC3 /* PlayBook.swift in Sources */,
+				FD66268B26B6AFDF007B4EC3 /* TileCard.swift in Sources */,
+				FD66269A26B6B754007B4EC3 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
