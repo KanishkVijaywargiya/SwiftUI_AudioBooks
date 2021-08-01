@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0484D2F326B6C6FF00B74B1D /* DarkModeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484D2F226B6C6FF00B74B1D /* DarkModeViewModifier.swift */; };
+		FD3A7ED126B6CFC3000449F2 /* DarkModeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3A7ED026B6CFC3000449F2 /* DarkModeViewModifier.swift */; };
 		FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */; };
 		FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267726B6ADB0007B4EC3 /* ContentView.swift */; };
 		FD66267A26B6ADB3007B4EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD66267926B6ADB3007B4EC3 /* Assets.xcassets */; };
@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0484D2F226B6C6FF00B74B1D /* DarkModeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DarkModeViewModifier.swift; path = ../../../../Documents/DarkModeViewModifier.swift; sourceTree = "<group>"; };
+		FD3A7ED026B6CFC3000449F2 /* DarkModeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewModifier.swift; sourceTree = "<group>"; };
 		FD66267226B6ADB0007B4EC3 /* AudioBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBooksApp.swift; sourceTree = "<group>"; };
 		FD66267726B6ADB0007B4EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,10 +55,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0484D2F126B6C6C000B74B1D /* Modifiers */ = {
+		FD3A7ECF26B6CFAB000449F2 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				0484D2F226B6C6FF00B74B1D /* DarkModeViewModifier.swift */,
+				FD3A7ED026B6CFC3000449F2 /* DarkModeViewModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 		FD66267426B6ADB0007B4EC3 /* AudioBooks */ = {
 			isa = PBXGroup;
 			children = (
-				0484D2F126B6C6C000B74B1D /* Modifiers */,
+				FD3A7ECF26B6CFAB000449F2 /* Modifiers */,
 				FD66269626B6B5F7007B4EC3 /* ViewModel */,
 				FD66268626B6AEFB007B4EC3 /* View */,
 				FD66267926B6ADB3007B4EC3 /* Assets.xcassets */,
@@ -203,9 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3A7ED126B6CFC3000449F2 /* DarkModeViewModifier.swift in Sources */,
 				FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */,
 				FD66269126B6B49A007B4EC3 /* DetailView.swift in Sources */,
-				0484D2F326B6C6FF00B74B1D /* DarkModeViewModifier.swift in Sources */,
 				FD66268D26B6B0EF007B4EC3 /* FreeBooksView.swift in Sources */,
 				FD66269C26B6B78E007B4EC3 /* TrendingView.swift in Sources */,
 				FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */,
