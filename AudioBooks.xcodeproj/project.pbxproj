@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0484D2F326B6C6FF00B74B1D /* DarkModeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484D2F226B6C6FF00B74B1D /* DarkModeViewModifier.swift */; };
 		FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */; };
 		FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267726B6ADB0007B4EC3 /* ContentView.swift */; };
 		FD66267A26B6ADB3007B4EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD66267926B6ADB3007B4EC3 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0484D2F226B6C6FF00B74B1D /* DarkModeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DarkModeViewModifier.swift; path = ../../../../Documents/DarkModeViewModifier.swift; sourceTree = "<group>"; };
 		FD66267226B6ADB0007B4EC3 /* AudioBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBooksApp.swift; sourceTree = "<group>"; };
 		FD66267726B6ADB0007B4EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0484D2F126B6C6C000B74B1D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0484D2F226B6C6FF00B74B1D /* DarkModeViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		FD66266926B6ADB0007B4EC3 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +82,14 @@
 		FD66267426B6ADB0007B4EC3 /* AudioBooks */ = {
 			isa = PBXGroup;
 			children = (
-				FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */,
-				FD66267726B6ADB0007B4EC3 /* ContentView.swift */,
-				FD66268426B6AE7E007B4EC3 /* MainTabView.swift */,
+				0484D2F126B6C6C000B74B1D /* Modifiers */,
 				FD66269626B6B5F7007B4EC3 /* ViewModel */,
 				FD66268626B6AEFB007B4EC3 /* View */,
 				FD66267926B6ADB3007B4EC3 /* Assets.xcassets */,
 				FD66267E26B6ADB3007B4EC3 /* Info.plist */,
+				FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */,
+				FD66267726B6ADB0007B4EC3 /* ContentView.swift */,
+				FD66268426B6AE7E007B4EC3 /* MainTabView.swift */,
 				FD66267B26B6ADB3007B4EC3 /* Preview Content */,
 			);
 			path = AudioBooks;
@@ -194,6 +205,7 @@
 			files = (
 				FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */,
 				FD66269126B6B49A007B4EC3 /* DetailView.swift in Sources */,
+				0484D2F326B6C6FF00B74B1D /* DarkModeViewModifier.swift in Sources */,
 				FD66268D26B6B0EF007B4EC3 /* FreeBooksView.swift in Sources */,
 				FD66269C26B6B78E007B4EC3 /* TrendingView.swift in Sources */,
 				FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */,

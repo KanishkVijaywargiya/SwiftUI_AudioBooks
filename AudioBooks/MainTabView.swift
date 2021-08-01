@@ -19,7 +19,7 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "books.vertical.fill")
-                        Text(tabTitle)
+                        Text("Category")
                     }.tag(0)
                 
                 TrendingView()
@@ -28,7 +28,7 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "books.vertical.fill")
-                        Text(tabTitle)
+                        Text("Trending")
                     }.tag(1)
                 
                 SettingsView()
@@ -37,7 +37,7 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "books.vertical.fill")
-                        Text(tabTitle)
+                        Text("Settings")
                     }.tag(2)
                 
             }

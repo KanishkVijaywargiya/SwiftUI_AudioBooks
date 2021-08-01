@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View {    
     @State var selectedIndex = 0
 
     var body: some View {
