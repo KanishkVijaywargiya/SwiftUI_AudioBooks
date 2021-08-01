@@ -24,22 +24,6 @@ struct AudioPlayerView: View {
                             .frame(width: 50, height: 50)
                             .opacity(0.8)
                             .position(x: 175, y: 200)
-                        
-                        Button(action: {
-                            shouldPlay.toggle()
-                            shouldPlay ? playSound(sound: "https://p73.f4.n0.cdn.getcloudapp.com/items/7KuoDpNL/422e717e-7fb3-44ff-9795-97778a0ec521.mp3"
-                            )
-                            :
-                            audioPlayer?.pause()
-                        }) {
-                            Image(systemName: !shouldPlay ? "play.circle.fill" : "pause.fill")
-                                .font(.system(size: 70))
-                                .frame(width: 70, height: 70)
-                        }
-                        .padding([.horizontal, .vertical], 8)
-                        .background(Color.white).opacity(0.8)
-                        .clipShape(Circle())
-                        .offset(x: 0 ,y: 10)
                     }
                 )
             
@@ -47,28 +31,35 @@ struct AudioPlayerView: View {
             
             HStack(spacing: UIScreen.main.bounds.width / 5 - 30) {
                 Button(action: {}) {
-                    Image(systemName: "backward.fill")
-                        .font(.title)
-                }
-                
-                Button(action: {}) {
                     Image(systemName: "gobackward.15")
                         .font(.title)
+                        .foregroundColor(.white)
                 }
+
+                
+                Button(action: {
+                    shouldPlay.toggle()
+                    shouldPlay ? playSound(sound: "https://p73.f4.n0.cdn.getcloudapp.com/items/7KuoDpNL/422e717e-7fb3-44ff-9795-97778a0ec521.mp3"
+                    )
+                    :
+                    audioPlayer?.pause()
+                }) {
+                    Image(systemName: !shouldPlay ? "play.circle.fill" : "pause.fill")
+                        .font(.system(size: 70))
+                        .frame(width: 70, height: 70)
+                }
+                .padding([.horizontal, .vertical], 8)
+                .background(Color.white).opacity(0.8)
+                .clipShape(Circle())
                 
                 
                 Button(action: {}) {
                     Image(systemName: "goforward.15")
                         .font(.title)
-                }
-                
-                Button(action: {}) {
-                    Image(systemName: "forward.fill")
-                        .font(.title)
+                        .foregroundColor(.white)
                 }
             }
             .padding()
-            .foregroundColor(.white)
             
             
             //            Button(action: {
@@ -103,7 +94,6 @@ struct AudioPlayerView: View {
             Image("img")
                 .resizable()
                 .scaledToFill()
-                .frame(height: UIScreen.main.bounds.height)
                 .blur(radius: 8.0)
                 .ignoresSafeArea()
         )
