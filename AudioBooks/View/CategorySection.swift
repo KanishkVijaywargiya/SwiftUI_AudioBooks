@@ -15,7 +15,7 @@ struct CategorySection: View {
                     .padding(.top)
             }
             
-            TileCard(iconBg: Color(#colorLiteral(red: 0.9176470588, green: 0.9176470588, blue: 0.9176470588, alpha: 1)), tileBg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), textFg: Color(#colorLiteral(red: 1, green: 0.7215686275, blue: 0.1490196078, alpha: 1)), text: "Text that someone has said", buttonBg: Color(#colorLiteral(red: 1, green: 0.1803921569, blue: 0.5019607843, alpha: 1)), buttonFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), buttonText: "Famous Quotes")
+            TileCard(iconBg: Color(#colorLiteral(red: 1, green: 0.7215686275, blue: 0.1490196078, alpha: 1)), tileBg: Color(#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)), textFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), text: "Text that someone has said", buttonBg: Color(#colorLiteral(red: 1, green: 0.7215686275, blue: 0.1490196078, alpha: 1)), buttonFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), buttonText: "Famous Quotes")
             
             TileCard(iconBg: Color(#colorLiteral(red: 0.1490196078, green: 0.4392156863, blue: 0.8274509804, alpha: 1)), tileBg: Color(#colorLiteral(red: 0.1803921569, green: 0.5333333333, blue: 1, alpha: 1)), textFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), text: "Self written life story", buttonBg: Color(#colorLiteral(red: 0.1490196078, green: 0.4392156863, blue: 0.8274509804, alpha: 1)), buttonFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), buttonText: "Listen To Biographies")
             
