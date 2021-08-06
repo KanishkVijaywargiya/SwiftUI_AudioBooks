@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BDB3C726BD54C900BC21AD /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDB3C626BD54C900BC21AD /* ArmView.swift */; };
+		04BDB3C926BD5C0100BC21AD /* PlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDB3C826BD5C0100BC21AD /* PlayerBox.swift */; };
 		FD3A7ED126B6CFC3000449F2 /* DarkModeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3A7ED026B6CFC3000449F2 /* DarkModeViewModifier.swift */; };
 		FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */; };
 		FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66267726B6ADB0007B4EC3 /* ContentView.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BDB3C626BD54C900BC21AD /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
+		04BDB3C826BD5C0100BC21AD /* PlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBox.swift; sourceTree = "<group>"; };
 		FD3A7ED026B6CFC3000449F2 /* DarkModeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewModifier.swift; sourceTree = "<group>"; };
 		FD66267226B6ADB0007B4EC3 /* AudioBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD66267526B6ADB0007B4EC3 /* AudioBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBooksApp.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 			children = (
 				FD66268A26B6AFDF007B4EC3 /* TileCard.swift */,
 				FD66268E26B6B2C9007B4EC3 /* BooksView.swift */,
+				04BDB3C626BD54C900BC21AD /* ArmView.swift */,
+				04BDB3C826BD5C0100BC21AD /* PlayerBox.swift */,
 			);
 			path = Item;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 				FD3A7ED126B6CFC3000449F2 /* DarkModeViewModifier.swift in Sources */,
 				FD66267826B6ADB0007B4EC3 /* ContentView.swift in Sources */,
 				FD66269126B6B49A007B4EC3 /* DetailView.swift in Sources */,
+				04BDB3C726BD54C900BC21AD /* ArmView.swift in Sources */,
 				FD66268D26B6B0EF007B4EC3 /* FreeBooksView.swift in Sources */,
 				FD66269C26B6B78E007B4EC3 /* TrendingView.swift in Sources */,
 				FD66267626B6ADB0007B4EC3 /* AudioBooksApp.swift in Sources */,
@@ -216,6 +223,7 @@
 				FD66269826B6B5F7007B4EC3 /* PlayBook.swift in Sources */,
 				FD66268B26B6AFDF007B4EC3 /* TileCard.swift in Sources */,
 				FD66269A26B6B754007B4EC3 /* SettingsView.swift in Sources */,
+				04BDB3C926BD5C0100BC21AD /* PlayerBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,6 @@ struct CategorySection: View {
             TileCard(iconBg: Color(#colorLiteral(red: 0.05098039216, green: 0.6980392157, blue: 0.262745098, alpha: 1)), tileBg: Color(#colorLiteral(red: 0.3803921569, green: 0.9215686275, blue: 0.5568627451, alpha: 1)), textFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), text: "Individual who starts on an idea!", buttonBg: Color(#colorLiteral(red: 0.05098039216, green: 0.6980392157, blue: 0.262745098, alpha: 1)), buttonFg: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), buttonText: "Hear To Entrepreneurs")
         }
         .navigationBarTitle(Text("Category"))
-        
     }
 }
 
