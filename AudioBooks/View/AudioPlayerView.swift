@@ -40,7 +40,7 @@ struct AudioPlayerView: View {
                         }
                     )
                     .rotationEffect(Angle.degrees(degrees))
-                    .animation(Animation.linear(duration: shouldPlay ? 200 : 0).delay(1.5))
+                    .animation(Animation.linear(duration: shouldPlay ? 250 : 0).delay(1.5))
                 
                 ArmView(rotateArm: $rotateArm)
                 
